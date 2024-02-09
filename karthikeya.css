@@ -10,6 +10,12 @@
 body, html {
     margin: 0;
     padding: 0;
+   
+    
+}
+
+.about{
+    
 }
 
 
@@ -45,12 +51,13 @@ body, html {
     z-index: 1;
 }
 
-.logo {
+.nav-logo {
     flex: 1;
     font-size: 40px;
     padding: 20px;
     margin-left: 50px;
     font-family: Satisfy;
+    color: red;
 }
 
 ul.menu {
@@ -80,8 +87,8 @@ ul.menu {
 
 
 .banner {
-    background-image: url("");
-    background-size: 1200px 800px;;
+    background-image: url("./images/background.jpg");
+    background-size: cover;;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
@@ -111,7 +118,7 @@ ul.menu {
     width: 100%;
     text-align: center;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -236,13 +243,14 @@ ul.menu {
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 80px;
+    display: flex;
+    /* grid-gap: 80px; */
     align-items: center;
     justify-items: center;
     text-align: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -250,7 +258,7 @@ ul.menu {
     box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    width: 80%;
+    width: 25%;
     height: auto;
 }
 
@@ -317,9 +325,10 @@ ul.menu {
 .about {
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     padding: 150px;
+    gap: 30px;
 }
 
 .about-img {
@@ -327,8 +336,8 @@ ul.menu {
 }
 
 .about-img img {
-    width: 500px;
-    height: 700px;
+    width: auto;
+    height: 500px;
     box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -339,17 +348,23 @@ ul.menu {
     flex-flow: column wrap;
 }
 
+.about-text p{
+    width :60%,
+}
+
 .about-text small,
 .about-text p,
 .about-text input,
 .about-text a {
+
     flex: 1;
     font-family: Roboto;
 }
 
 .about-text small {
-    color: #FFC342;
+    color: red;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .about-text h2 {
@@ -404,7 +419,7 @@ ul.menu {
     height: 670px;
     position: relative;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -428,6 +443,7 @@ ul.menu {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .links ul {
@@ -615,6 +631,7 @@ ul.menu {
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
+        
     }
 
     .about-img {
@@ -643,15 +660,80 @@ ul.menu {
 }
 
 @media all and (max-width: 708px) {
+.about-text h2{
+    font-size: 30px;
+    width: 100%;
+    align-self: center;
+}
+
     .footer{
-        width: 100%;
-        height: 670px;
-        position: relative;
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
+        height: auto;
     }
+
+    .about{
+        padding: 50px;
+    }
+
+    .banner-text-item {
+        flex-direction: column;
+    }
+
+    .banner-text-item .form .date {
+        display: none;
+    }
+
+    .banner-text-item .form a {
+        display: none;
+    }
+
+    .banner-text-item .form input {
+        width: 100%;
+    }
+    .services{
+        width: 100vw;
+    }
+
+    .service-item{
+        width: 100%;
+        margin:0px 0px 20px 0px !important;
+    }
+
+    .hero-phone{
+        display: block !important;
+    }
+    .places{
+        margin-top: 40%;
+    }
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-phone{
+    display: none;
+}
+
+.about{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    height: auto;
+   
+}
+
+
+.about-text p {
+   width: 100vw;
+}
+
+.img-card{
+    width: 100%;
+}
+
+
+.email{
+    width: 100vw;
 }
 
 body{
@@ -679,3 +761,18 @@ body{
     {
         color: rgb(0, 255, 72);
     }
+
+    body{
+        padding: 0px !important;
+    }
+
+    .banner-text-item{
+        flex-direction: column !important;
+    }
+
+    button{
+        width: 100px;
+        height: 40px;
+    }
+
+    
