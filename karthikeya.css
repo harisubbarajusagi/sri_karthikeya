@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
@@ -7,12 +7,17 @@
   margin: 0;
 }
 
+#btn {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+}
+
 body,
 html {
   margin: 0;
   padding: 0;
 }
-
 
 ::-webkit-scrollbar {
   width: 20px;
@@ -79,7 +84,6 @@ ul.menu {
   color: midnightblue;
   text-decoration: underline;
 }
-
 
 .banner {
   background-image: url("./images/background.jpg");
@@ -375,7 +379,6 @@ ul.menu {
 }
 
 .about-text p {
-
   line-height: 30px;
   color: #506172;
   font-weight: bolder;
@@ -459,7 +462,6 @@ ul.menu {
   color: #ffa801;
 }
 
-
 @media all and (max-width: 1172px) {
   .banner-text-item .form {
     display: flex;
@@ -468,7 +470,6 @@ ul.menu {
     align-items: center;
     width: 50%;
   }
-
 
   .banner-text-item .form input,
   .banner-text-item .form .date,
@@ -495,7 +496,6 @@ ul.menu {
     font-size: 60px;
   }
 }
-
 
 @media all and (max-width: 1414px) {
   .banner-text-item .form input {
@@ -635,7 +635,6 @@ ul.menu {
     flex: 1;
     margin: auto;
     text-align: center;
-    
     justify-content: center;
     align-items: center;
     padding-bottom: 50px !important;
@@ -699,7 +698,6 @@ ul.menu {
 }
 .cards {
   display: flex;
-
 }
 
 .hero-phone {
@@ -757,4 +755,5 @@ body {
 button {
   width: 100px;
   height: 40px;
+  margin-right: 1200px;
 }

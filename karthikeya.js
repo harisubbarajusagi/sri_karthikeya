@@ -3,6 +3,8 @@ function darkMode() {
     element.classList.toggle("dark-mode");
 }
  
-{
-    alert("Hii ! Do you Want to Refresh");
-}
+let btn = document.getElementById('btn');
+
+btn.addEventListener("click",()=>{
+    window.scrollTo({top: 0, behavior: "smooth"});
+})
