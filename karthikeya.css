@@ -423,7 +423,7 @@ ul.menu {
   position: absolute;
   content: "";
   display: block;
-  background-color: rgba(0, 0, 36, 0.8);
+  background-color: rgba(89, 149, 239, 0.8);
   top: 0;
   left: 0;
   bottom: 0;
@@ -757,3 +757,9 @@ button {
   height: 40px;
   margin-right: 1200px;
 }
+
+#hii{
+ color = #32a852;
+}
+
+
