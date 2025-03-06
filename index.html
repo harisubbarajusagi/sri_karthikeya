@@ -1,32 +1,43 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="stylesheet" href="karthikeya.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sri Karthikeya Enterprises</title>
+    <link rel="stylesheet" href="kartikaya.css">
+    <script defer src="karthikaya.js"></script>
 </head>
 <body>
-    <button onclick="darkMode()">Darkmode</button>
-        
-        <!--===========Nav Bar=================-->
-        <section class="nav-bar">
-            <div class="nav-logo">
-                <img src="logo.jpeg" width="70px" height="50px">  &nbsp; &nbsp;Sri Karthikeya Enterprises</div>
-            <ul class="menu">
-                <li><a href="#">home</a></li>
-                <li><a href="#">work</a></li>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">contact us :-7416236149, 7093928129</a></li>  
-         </ul>
-            </div>
-        </section> 
-        <!--===============Banner================-->
-        <section class="banner">
-            <div class="banner-text-item">
-                <div class="banner-heading">
-                    <h1>what work you like to do</h1>
-                </div>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <image src="logo.png" width="40" height="40">      Sri Karthikeya Enterprises</image></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+        </div>
+    </header>
+ <!-- Hero Section -->
+ <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>Building the Future with Strength & Precision</h1>
+        <p>We deliver high-quality construction solutions for residential, commercial, and industrial projects.</p>
+        <div class="hero-buttons">
+            
+            <a href="https://www.instagram.com/sri_karthikeya_enterprise?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn-secondary">View Projects</a>
+            <!--===============Banner================-->
                 <form class="form">
                     <input type="text" list="mylist" placeholder="what work you like to do">
                     <datalist id="mylist">
@@ -38,230 +49,167 @@
                         <option>Interior Work</option>
                         <option>Welding Work</option>
                     </datalist>
-                    <!-- <input type="date" class="date">-->
-                    <!-- <a href="#" class="book">book</a>  -->
-                </form>
-                <div class="hero-phone" style="background-color: white;" >
-                    <p  style="color: red; font-weight: bold;">
-                        Contact Us:
-                    </p>
-                    <p style="color: red">7416236149  || 7093928129</p>
-                </div>
-            </div> 
-        </section>
-    <h1><hr><hr><marquee>For Booking Contact Us by Email at the Bellow link (Send Email) OR Phone Number"</marquee></h1><hr><hr>
-    <center class="email"><a href = "mailto: Srikartikeyaenterprise45@gmail.com" >Send Email</a></center> to the Srikartikeyaenterprise45@gmail.com  
-    <!--=========Services===============-->
-    
-        <section class="services">
+
+        </div>
+    </div>
+</section>
+<!--about ou-->
+
+ <p><section class="about">
+    <div class="container">
+        <div class="about-content">
+        <h2>About Us</h2>
+        <h1 class="hii">We are best to do all tyes of work</h1>
+        <p>Welcome to our home services hub, where craftsmanship meets convenience. Our company specializes in glassworks, interior design enhancements, and expert welding services. From stunning glass installations to tailored interior transformations and precise welding solutions, we're dedicated to elevating your home's aesthetic and functionality with meticulous craftsmanship and unwavering quality.</p>
+        <p>Our mission is to build structures that stand the ensuring safety, sustainability, and innovation in every project.</p>
+         <h4 class="bye">♦️Work done in time<br>
+          ♦️good quality items<br>
+          ♦️good workers are provide</h4><br>
+        <a href="#" class="btn-primary">home</a>
+    </div>
+        <div class="about-image">
+            <img src="images\aboutus.png" alt="Construction Work">
+        </div>
+    </div> 
+</section>
+<hr><hr>
+<!-- services section -->
+ <center><h1>Our Services </h1></center><br><hr><hr>
+ <br><marquee><h4 class="hii">We Ofer a Wide Range of Construction Services Tailored to Meet Your Needs.</h4></marquee><br><hr><hr>
+<section class="services">
+    <div class="container">
+
+        <div class="services-grid">
             <div class="service-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMoEHh6K0JjZfJD3CAeq9xeUq9DqNUuy0ubA&usqp=CAU">
-                <h2>50+ Workes in Our company</h2>
+                <img src="images\civil.png" alt="General Construction">
+                <h1>Civil Work</h1>
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <h3>Cost: As per work</h3>
+                <h3 class="hari">Location: Hyderabad</h3>
+                <p>We build high-quality, durable structures with precision and expertise.</p>
+            </div>
+            
+            <div class="service-item">
+                <img src="images\exter.png" alt="Architectural Design">
+                <h1>Exterior Work</h1>
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <h3>Cost: As per work</h3>
+                <h3 class="hari">Location: Hyderabad</h3>
+                <p>Innovative and sustainable designs to create your dream projects.</p>
+            </div>
+
+            <div class="service-item">
+                <img src="images\house.png" alt="Renovation & Remodeling">
+                <h1>House Cleaning</h1>
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <h3>Cost: As per work</h3>
+                <h3 class="hari">Location: Hyderabad</h3>
+                <p>Experience a spotless home with our professional cleaning services tailored to your needs.</p>
+            </div>
+
+            <div class="service-item">
+                <img src="images\intel.png" alt="Interior Design">
+                <h1>Interior Design</h1>
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <h3>Cost: As per work</h3>
+                <h3 class="hari">Location: Hyderabad</h3>
+                <p>Functional and aesthetic interiors tailored to your needs.</p>
             </div>
             <div class="service-item">
-                <img src="https://t4.ftcdn.net/jpg/01/90/95/91/360_F_190959123_Uy2SduoTmcMS2m2f0x1qPYE4slOIMjBg.jpg">
-                <h2>100% Trusted on our company</h2>
+                <img src="images\glass.png" alt="Glass work">
+                <h1>Glass Work</h1>
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <h3>Cost: As per work</h3>
+                <h3 class="hari">Location: Hyderabad</h3>
+                <p>We specialize in custom glass installations, ensuring clarity and elegance for your space.</p>
             </div>
             <div class="service-item">
-                <img src="https://www.edumilestones.com/career-library/images/construction.png" >
-                <h2>3 Years of working Experience</h2>
+                <img src="images\welding.png" alt="Welding work">
+                <h1>Welding Work</h1>
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <h3>Cost: As per work</h3>
+                <h3 class="hari">Location: Hyderabad</h3>
+                <p> Our skilled welders provide high-quality, durable solutions for all your metal fabrication needs.</p>
             </div>
             <div class="service-item">
-                <img src="https://st.depositphotos.com/1967477/1881/v/450/depositphotos_18812923-stock-illustration-happy-smiley-emoticon.jpg">
-                <h2>98% Our customer are Happy</h2>
-            </div>
-        </section>
-        
-        <!--=========Services===============-->
-        <section class="places">
-            <class="places-text">
-                <hr><hr><center><h2>Our services are</h2></center><hr><br>
-                <center><h3>our services list :--</h3></center><hr><hr><br><br>
-                <div class="cards">
-                <div class="card">
-                    <div class="zoom-img">
-                        <div class="img-card">
-                            <img src="https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2019/09/23164639/Civil-Engineering.jpg"width="600" 
-                            height="500" >
-                        </div>
-                    </div><br>
-                    <div class="text">
-                        <span class="rating">⭐⭐⭐⭐⭐</span>
-                        <h2>civil Work</h2>
-                        <p class="cost">as per work</p>
-                        <div class="card-box">
-                            <p class="location">hyderabad</p>
-                        </div>
-                    </div>
-                </div><br>
-                <div class="card">
-                    <div class="zoom-img">
-                        <div class="img-card">
-                            <img src="https://img1.exportersindia.com/product_images/bc-full/2019/4/5693861/exterior-designing-work-1554276208-4826667.jpeg"width="600" 
-                            height="500" >
-                        </div>
-                    </div><br>
-                    <div class="text">
-                        <span class="rating">⭐⭐⭐⭐⭐</span>
-                        <h2>Exterior Work</h2>
-                        <p class="cost">as per Work</p>
-                        <div class="card-box">
-                            <p class="location">hyderabad</p>
-                        </div>
-                    </div>
-                </div><br>
-                <div class="card">
-                    <div class="zoom-img">
-                        <div class="img-card">
-                            <img src="https://cdn2.vectorstock.com/i/1000x1000/65/06/poster-house-cleaning-vector-27266506.jpg"width="600" 
-                            height="500" >
-                        </div>
-                    </div><br>
-                    <div class="text">
-                        <span class="rating">⭐⭐⭐⭐⭐</span>
-                        <h2>House Cleaning</h2>
-                        <p class="cost">as per Work</p>
-                        <div class="card-box">
-                            <p class="location">hyderabad</p>
-                        </div>
-                    </div>
-                </div><br>
-                <div class="card">
-                    <div class="zoom-img">
-                        <div class="img-card">
-                            <img src="https://greeninteriofusion.com/images/home/Glass-Work-Kerala.jpg"width="600" 
-                            height="500" >
-                        </div>
-                    </div><br>
-                    <div class="text">
-                        <span class="rating">⭐⭐⭐⭐⭐</span>
-                        <h2>Glass Work</h2>
-                        <p class="cost">as per work</p>
-                        <div class="card-box">
-                            <p class="location">hyderabad</p>
-                        </div>
-                    </div>
-                </div><br>
-                <div class="card">
-                    <div class="zoom-img">
-                        <div class="img-card">
-                            <img src="https://i.pinimg.com/originals/79/18/0c/79180c09a0f55fe08f3afb494cec3aee.jpg"width="600" 
-                            height="500" >
-                        </div>
-                    </div><br>
-                    <div class="text">
-                        <span class="rating">⭐⭐⭐⭐⭐</span>
-                        <h2>Interior Work</h2>
-                        <p class="cost">as per work</p>
-                        <div class="card-box">
-                            <p class="location">hyderabad</p>
-                        </div>
-                    </div>
-                </div><br>
-                <div class="card">
-                    <div class="zoom-img">
-                        <div class="img-card">
-                            <img src="https://3.imimg.com/data3/MY/CH/MY-2150837/modern-steel-gate-500x500.jpg"width="600" 
-                                height="600" >
-                        </div>
-                    </div><br>
-                    <div class="text">
-                        <span class="rating">⭐⭐⭐⭐⭐</span>
-                        <h2>Welding Work</h2>
-                        <p class="cost">as per work</p>
-                        <div class="card-box">
-                            <p class="location">hyderabad</p>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="zoom-img">
-                            <div class="img-card">
-                                <img src="https://cdn.corporatefinanceinstitute.com/assets/real-estate.jpeg" width="600" 
-                                height="500" >
-                            </div>
-                        </div><br>
-                        <div class="text">
-                            <span class="rating">⭐⭐⭐⭐⭐</span>
-                            <h2>real estate</h2>
-                            <p class="cost">as per area </p>
-                            <div class="card-box">
-                                <p class="location">hyderabad</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <br>
-               
+                <img src="images\real.png" alt="Real Estate">
+                <h1>Real Estate</h1>
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <h3>Cost: As per work</h3>
+                <h3 class="hari">Location: Hyderabad, Andhra Pradesh</h3>
+                <p>Discover your dream home with our expert guidance and personalized service.</p>
             </div>   
-        </section>
-        <h1><hr><hr><marquee>For more information contact us by above Email(send Email) "</marquee></h1><hr><hr>
-        <!--===========About Us===============-->
-        <section class="about">
-            <div class="about-img">
-                <img src="https://www.poynter.org/wp-content/uploads/2019/03/shutterstock_446870920.jpg">
-            </div>
-            <div class="about-text">
-                <h2 id="hii">We are best to do all tyes of work </h2>
-                <p>Welcome to our home services hub, where craftsmanship meets convenience. 
-                    Our company specializes in glassworks, interior design enhancements,
-                    and expert welding services. From stunning glass installations to tailored
-                    interior transformations and precise welding solutions, we're dedicated to
-                    elevating your home's aesthetic and functionality with meticulous craftsmanship 
-                    and unwavering quality.</p>
-                 <div>
-                <label><input type="checkbox" checked>Work done in time </label><br> 
-                <label><input type="checkbox" checked>good quality items</label><br>
-                <label><input type="checkbox" checked>good workers are provied</label>
-             </div>
-                <br>
-                <a style="margin-top: 20px;" href="#">ABOUT US</a>
-            </div>
-        </section>
-      <!--=========servies=========-->
-        <div class="footer">
-            <div class="links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li>Offers & Discounts</li>
-                    <li>done in time </li>
-                    <li>Contact Us</li>
-                    <li>About</li>
-                </ul>
-            </div>
-            <div class="links">
-                <h3>Support</h3>
-                <ul>
-                    <li>Frequently Asked Questions</li>
-                    <li>Report a Payment Issue</li>
-                    <li>Terms & Conditions</li>
-                </ul>
-            </div>
-            <div class="links">
-                <h3>address</h3>
-                <ul>
-                    <li>Donthanpally (Village)</li>
-                    <li>Sankarapally (Mondal)</li>
-                    <li>Ranga Reddy  (Distric)</li>
-                    <li>Mokila Road</li>
-                    <li>In Venkateswara Swami Temple</li>
-                    <li>Shutter No:-19</li>
-                    <li>Near:-IBS School</li>
-                </ul>
+                <div class="service-item">
+                    <img src="images\fab.png" alt="Welding work">
+                    <h1>Fabrication Work</h1>
+                    <h3>⭐⭐⭐⭐⭐</h3>
+                    <h3>Cost: As per work</h3>
+                    <h3 class="hari">Location: Hyderabad</h3>
+                    <p> Expertly crafted solutions that transform ideas into reality through innovative fabrication techniques.</p>
+                
             </div>
         </div>
-        <br><hr><a href="https://www.instagram.com/sri_karthikeya_enterprise?igsh=ZXE5ODd0aDMwcGdz">
-            <img src="instra.jpg"width="50px"height="50px">
-                || and ||<a href="https://maps.app.goo.gl/DPq75548BKTk8rxM6">
-            <img src="location.jpg"width="50px"height="50px"></a><hr>
-             
-        <button id="btn">
-            <img src="https://static.vecteezy.com/system/resources/previews/012/493/996/original/up-arrow-simple-symbol-with-transparent-background-png.png"height="40" width="50">
-        </button>
-       
-        <script src="karthikeya.js"></script>
+    </div>
+</section><br><hr><hr>
+<!--contact ous-->
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p class="bye">Get in touch with us for any inquiries or construction services.</p>
+<br><hr><hr><br>
+<h3 class="hari1">Contact Number: 7416236149 <br>
+    Mail Id : Srikartikeyaenterprise45<br>
+    @gmail.com</h3><br><hr><br>
+    <div class="container">
+        
+        <div class="contact-content">
+            <div class="contact-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Discounts</a></li>
+                    <li><a href="#">Done in Time</a></li>
+                    <li><a href="#">Best Quality</a></li>
+                    <li><a href="#">Best Output</a></li>
+                </ul>
+            </div>
+
+            <!-- Support -->
+            <div class="contact-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">For process Details </a></li>
+                    <li><a href="#">Work & Payment Details</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <!-- Address -->
+            <div class="contact-column">
+                <h3>Address</h3>
+                <p>Donthanpally (Village)</p>
+                <p>Sankarapally (Mandal)</p>
+                <p>Ranga Reddy (District)</p>
+                <p>Mokila Road</p>
+                <p>In Venkateswara Swami Temple</p>
+                <p>Shutter No:-19</p>
+                <p>Near: IBS School</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <!-- Footer Buttons -->
+        <div class="footer-buttons">
+            <a href="https://www.instagram.com/sri_karthikeya_enterprise?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="footer-btn back-to-top"><img src="images\inst.png" height="50" width="50"></a>
+            <a href="https://g.co/kgs/AZqjdVV/" target="_blank" class="footer-btn back-to-top"><img src="images\google.png"height="50" width="50"></a>
+            <a href="#" class="footer-btn back-to-top"><img src="images\back2 top.png"height="50" width="50" ></a>
+            <button onclick="darkMode()">Darkmode</button>
+
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
-
-
