@@ -189,7 +189,11 @@ header {
     background: rgba(0, 0, 0, 0.6); 
 }
 
-
+.hero {
+    background: url('images/image.png');
+    background-blend-mode: darken;
+}
+   
 .about {
     background: #f8f9fa;
     padding: 80px 20px;
@@ -492,7 +496,7 @@ h2 {
 }
 
 .dark-mode .hero {
-    background: url('images/img1.png');
+    background: url('images/image.png');
     background-blend-mode: darken;
 }
 
