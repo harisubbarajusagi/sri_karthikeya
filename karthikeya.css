@@ -477,6 +477,46 @@ h2 {
     color: #ff9800;
 }
 
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode header {
+    background: #333;
+}
+
+.dark-mode .nav-links a {
+    color: white;
+}
+
+.dark-mode .hero {
+    background: url('images/img1.png');
+    background-blend-mode: darken;
+}
+
+.dark-mode .about,
+.dark-mode .services,
+.dark-mode .contact {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .service-item {
+    background: #252525;
+    color: white;
+}
+
+.dark-mode .footer {
+    background: #111;
+}
+
+.dark-mode .btn-primary {
+    background: #ffcc00;
+    color: black;
+}
+
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
