@@ -27,3 +27,20 @@ document.addEventListener("DOMContentLoaded", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
     });
 });
+
+// call and message 
+function makeCall() {
+    const companyPhoneNumber = "+1234567890"; // Replace with actual company number
+    window.location.href = `tel:${companyPhoneNumber}`;
+}
+
+function sendEmail() {
+    const companyEmail = "company@example.com"; // Replace with actual company email
+    const subject = encodeURIComponent("Inquiry from Website");
+    const body = encodeURIComponent("Hello, I would like to inquire about...");
+    window.location.href = `mailto:${companyEmail}?subject=${subject}&body=${body}`;
+}
+
+// Add event listeners to buttons
+document.getElementById("callButton").addEventListener("click", makeCall);
+document.getElementById("emailButton").addEventListener("click", sendEmail);
