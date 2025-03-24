@@ -521,10 +521,6 @@ h2 {
     color: black;
 }
 
-.emailButton {
-    background: #7184b1;
-    color: blue;
-}
 
 @media (max-width: 768px) {
     .hero h1 {
