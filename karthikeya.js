@@ -30,12 +30,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // call and message 
 function makeCall() {
-    const companyPhoneNumber = "+1234567890"; // Replace with actual company number
+    const companyPhoneNumber = "7416236149"; // Replace with actual company number
     window.location.href = `tel:${companyPhoneNumber}`;
 }
 
 function sendEmail() {
-    const companyEmail = "company@example.com"; // Replace with actual company email
+    const companyEmail = "Srikartikeyaenterprise45@gmail.com"; // Replace with actual company email
     const subject = encodeURIComponent("Inquiry from Website");
     const body = encodeURIComponent("Hello, I would like to inquire about...");
     window.location.href = `mailto:${companyEmail}?subject=${subject}&body=${body}`;
