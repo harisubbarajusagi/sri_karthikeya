@@ -521,6 +521,26 @@ h2 {
     color: black;
 }
 
+#callButton {
+    background: linear-gradient(to right, blue, green);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#emailButton {
+    background: linear-gradient(to right, pink, skyblue);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 
 @media (max-width: 768px) {
     .hero h1 {
